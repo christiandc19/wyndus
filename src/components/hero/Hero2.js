@@ -3,6 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { SiImdb } from "react-icons/si";
 
 // import { Link } from 'react-router-dom';
 // import Fade from 'react-reveal/Fade';
@@ -37,6 +38,7 @@ const Hero2 = () => {
                             <p><FaTwitter /></p>
                             <p><FaYoutube /></p>
                             <p><FaInstagram  /></p>
+                            <p><SiImdb  /></p>
                         </div>
                 </div>
             </div>

@@ -1,15 +1,16 @@
 import React from 'react'
 import Cards from '../servicesCards/Cards';
 import ContactForm from '../contact/ContactForm';
-import HomeSection1 from '../homeSection1/HomeSection1';
 
+import Insurance from '../insurance/InsuranceSection';
 
 
 const home = () => {
   return (
     <>
     <Cards />
-    <HomeSection1 />
+    {/* <HomeSection1 /> */}
+    <Insurance />
     <ContactForm />
     </>
   )

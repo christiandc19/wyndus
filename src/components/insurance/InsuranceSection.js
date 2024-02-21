@@ -2,97 +2,77 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import './InsuranceSection.css'
 
-import Aetna from '../../assets/aetna.png'
-import Beacon from '../../assets/beacon.png'
-import Bluecross from '../../assets/bluecross.png'
-import Cigna from '../../assets/cigna.png'
-import Horizon from '../../assets/horizon.png'
-// import UMR from '../../assets/umr.png'
-// import United from '../../assets/united-healthcare.png'
-import Optima from '../../assets/optima.png'
-import Optum from '../../assets/optum.png'
-import Anthem from '../../assets/anthem.png'
+import Maya from '../../assets/maya.webp'
+import AfterEffect from '../../assets/after_effects.webp'
+import Syntheyes from '../../assets/syntheyes.webp'
+import Photoshop from '../../assets/photoshop.webp'
+import Unreal from '../../assets/unreal.webp'
+import Zbrush from '../../assets/zbrush.webp'
+import Premiere from '../../assets/premiere.webp'
+import Lightroom from '../../assets/lightroom.webp'
 
-import Group from '../../assets/group.jpg'
 
 
 const InsuranceSection = () => {
     return (
         <>
         <div className='InsuranceSection'>
-            <div className="InsuranceSection-container">
+            <div className="InsuranceSection-container container">
                 <div>
-                <h1>WE WORK WITH MAJOR INSURANCE</h1>
-                <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
+                <h1>SOFTWARE</h1>
+                <p>This list is just a snapshot of our expertise. If you have specific software requirements not listed here, feel free to reach out to us. We are always eager to expand our knowledge and take on new challenges. Let's collaborate to bring your ideas to life using the best tools for the job!</p>
                 </div>
                 <div className="content">
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Aetna} height="100" alt="Aetna Insurance Logo" loading="lazy"/>
+                                <img src={Maya} alt="Maya Logo Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Beacon} width="640" height="100" alt="Beacon Insurance Logo" loading="lazy"/>
+                                <img src={AfterEffect} alt="Beacon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Bluecross} width="640" height="100" alt="Bluecross Insurance Logo" loading="lazy"/>
+                                <img src={Syntheyes} alt="Bluecross Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Cigna} width="640" height="100" alt="Cigna Insurance Logo" loading="lazy"/>
+                                <img src={Photoshop} alt="Cigna Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Horizon} width="640" height="100" alt="Horizon Insurance Logo" loading="lazy"/>
-                                </div>
-                            </Fade>
-
-                            {/* <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <img src={UMR} width="640" height="100" alt="UMR Insurance Logo" loading="lazy"/>
+                                <img src={Unreal} alt="Horizon Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
 
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={United} width="640" height="100" alt="United Insurance Logo" loading="lazy"/>
-                                </div>
-                            </Fade> */}
-
-                            <Fade bottom>
-                                <div className='insurance-thumbnail'>
-                                <img src={Optima} width="640" height="100" alt="Optima Health Insurance Logo" loading="lazy"/>
+                                <img src={Zbrush} alt="Optum Health Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Optum} width="640" height="100" alt="Optum Health Insurance Logo" loading="lazy"/>
+                                <img src={Premiere} alt="Optum Health Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                             <Fade bottom>
                                 <div className='insurance-thumbnail'>
-                                <img src={Anthem} width="640" height="100" alt="Optum Health Insurance Logo" loading="lazy"/>
+                                <img src={Lightroom} alt="Optum Health Insurance Logo" loading="lazy"/>
                                 </div>
                             </Fade>
                 </div>
             </div>
 
 
-            <div className='group'>
-            <Fade bottom>
-                <img src={Group} width="500px" height="320px" alt="Company Team" loading="lazy" />
-            </Fade>
-            </div>
         </div>
 
 

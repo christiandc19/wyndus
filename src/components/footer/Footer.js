@@ -1,8 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { BsFillArrowUpCircleFill } from 'react-icons/bs'
-import logo from '../../assets/nav-logo.png'
-import DHCS from '../../assets/DHCS-logo.png'
 
 import './FooterStyles.css'
 
@@ -16,8 +14,7 @@ const Footer = () => {
             <div className="container">
                 <div className="top">
                     <div className="logo-footer">
-                    <img src={logo} width="140px" height="80px" alt="Rodeo Recovery Rehab Logo" loading="lazy"/>
-                    {/* <h1>RODEO RECOVERY</h1> */}
+                    <h1>ALWYN FUNA</h1>
 
                     </div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
@@ -28,64 +25,43 @@ const Footer = () => {
                 <div className="col-container">
 
                     <div className="col">
-                        <h3>Company</h3>
+                        <h3>Header 1</h3>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mission'><p>Our Mission</p></Link>
+                        <Link to='/mission'><p>Item 1</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/about-us'><p>About Us</p></Link>
+                        <Link to='/about-us'><p>Item 2</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/team'><p>Our Team</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/testimonials'><p>Testimonials</p></Link>
+                        <Link to='/team'><p>Item 3</p></Link>
                         </LinkRoll>
 
                     </div>
 
 
                     <div className="col">
-                        <h3>Navigation</h3>
+                        <h3>Header 2</h3>
                         
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/'><p>Home</p></Link>
+                        <Link to='/'><p>Item 1</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/mental-health'><p>Mental Health Treatment</p></Link>
+                        <Link to='/mental-health'><p>Item 2</p></Link>
                         </LinkRoll>
 
                         <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/substance-abuse'><p>Substance Abuse Treatment</p></Link>
-                        </LinkRoll>
-
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to='/jobs'><p>Jobs Program</p></Link>
+                        <Link to='/substance-abuse'><p>Item 3</p></Link>
                         </LinkRoll>
                     </div>
-
-
-                    <div className='license'>
-                        <h3>Licensed by the State Department of Health Care Services</h3>
-                        <p>License Number: 191057BP <br/>
-                        Expiration Date:  6 / 30 / 2023 </p><br/>
-
-                        <a href='https://data.chhs.ca.gov/dataset/sud-recovery-treatment-facilities' target="_blank" rel="noreferrer">( View License & Certification Information here ).</a>
-                        <div>
-                        <img src={DHCS} width="300px" height="150px" alt="Rodeo Recovery Rehab Logo" loading="lazy"/>
-                        </div>
-                    </div>
-
 
                 </div>
 
 
-                <p className='copyright'><p>&copy; 2023 Rodeo Recovery. All rights reserved</p></p>
+                <p className='copyright'><p>&copy; 2024 Alwyn Funa. All rights reserved</p></p>
 
 
             </div>

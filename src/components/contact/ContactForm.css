@@ -16,7 +16,6 @@
     width: 100%;
     z-index: -1;
     top: 25%;
-    background: url('../../assets/bg1.jpg') no-repeat center center/cover;
     opacity: 0.08;
   }
   
@@ -115,26 +114,12 @@ input {
     margin: 1rem auto;
     }
 
-    /* iframe {
-      width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
-      justify-content: center;
-    }
-
-    .iframe {
-      width: 850px;
-    } */
-  
 
   @media screen and (max-width: 940px) {
     .get_form_inner {
         margin: 4rem 1rem 2rem 1rem;
       }
 
-      iframe {
-        display: none;
-      }
+
     }
   

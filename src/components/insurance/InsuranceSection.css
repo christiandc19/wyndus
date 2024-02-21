@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    gap: 1rem;
 }
 
 .InsuranceSection-container {
@@ -26,30 +27,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+
+.insurance-thumbnail {
+    width: 100px;
+}
+
 .insurance-thumbnail img {
-    margin: 5px;
-    width: 120px;
-    padding: 5px;
-    border: 1px solid var(--primary-color);
-    border-radius: 1rem;
-}
-
-.InsuranceSection .flex-right {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.insuranceSection-btn button {
-    margin: 1rem auto;
-}
-
-.group {
-    justify-content: center;
-    text-align: center;
     width: 100%;
-    margin-bottom: -2rem;
 }
+
+
+
+
+
 
 @media  screen and (max-width:940px) {
     .InsuranceSection-container h1 {
@@ -62,11 +52,13 @@
         font-size: 14px;
     }
 
-    .group img {
-        width: 350px;
+
+}
+
+@media  screen and (max-width:600px) {
+    .insurance-thumbnail {
+        width: 80px;
     }
-
-
 }
 
 

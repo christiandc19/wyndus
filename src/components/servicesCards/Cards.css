@@ -3,13 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 
+.bg {
+  background: #555454;
+}
+
 .main-cards-header {
-  padding: 3rem;
+  padding:  1rem;
 }
 
 .main-cards-header p {
   font-size: 14px;
-  color: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -17,8 +21,8 @@
   text-align: center;
   font-family: 'Instrument Serif', serif;
   font-size: 1.5rem;
-  padding: .5rem 0;
-  color: rgb(8, 8, 8);
+  padding: 1rem;
+  color: rgb(255, 255, 255);
 }
 
 
@@ -29,16 +33,39 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem;
+  padding-bottom: 3rem;
 }
 
 
+.card-caption h1 {
+  text-align: center;
+  color: rgb(240, 166, 7);
+  font-size: 1rem;
+  font-weight: 300;
+  padding: .5rem;
+}
+
+.card-iframe iframe {
+  border-radius: 1rem;
+}
+
+@media screen and (max-width:700px) {
 
 
-@media screen and (max-width:940px) {
+  .card-iframe {
+    margin: 2rem 0;
+  }
 
+  .card-iframe iframe {
+    width: 100%;
+    height: 100%;
+  }
 
-
+  .card-caption h1 {
+    padding: .2rem 0;
+    font-size: .8rem;
+  }
+  
 }
 
 
