@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wyndus/static/css/main.0d0be7b7.css",
-    "main.js": "/wyndus/static/js/main.63c78a7a.js",
+    "main.css": "/wyndus/static/css/main.5f5a4cc6.css",
+    "main.js": "/wyndus/static/js/main.82beae9f.js",
     "static/media/activities-min.png": "/wyndus/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/me2.png": "/wyndus/static/media/me2.b0ede170970530c933da.png",
     "static/media/hero-bg-1.jpg": "/wyndus/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
@@ -24,10 +24,8 @@
     "static/media/activity.jpg": "/wyndus/static/media/activity.18cf9f92ce0257180036.jpg",
     "static/media/Lydia.jpg": "/wyndus/static/media/Lydia.f380e7a444882a9d8340.jpg",
     "static/media/top-flex-icon6.png": "/wyndus/static/media/top-flex-icon6.f522885e820c1a08ca0b.png",
-    "static/media/menu-bg-contact.jpg": "/wyndus/static/media/menu-bg-contact.9cecb74711c5748b7c52.jpg",
     "static/media/submenu-bg-team.jpg": "/wyndus/static/media/submenu-bg-team.60bc3ede9e9bb99c5f4b.jpg",
     "static/media/top-flex-icon5.png": "/wyndus/static/media/top-flex-icon5.f2bd3f1095beca99d6cb.png",
-    "static/media/bg1.jpg": "/wyndus/static/media/bg1.9548ae59ebd31a1725f5.jpg",
     "static/media/menu-bg-insurance.jpg": "/wyndus/static/media/menu-bg-insurance.feda551b4ff3f77df9da.jpg",
     "static/media/mission-img1.png": "/wyndus/static/media/mission-img1.624e582d9b10b862fb85.png",
     "static/media/top-flex-icon9.png": "/wyndus/static/media/top-flex-icon9.3bc8106728332877dd8d.png",
@@ -35,7 +33,6 @@
     "static/media/submenu-bg-jobs.jpg": "/wyndus/static/media/submenu-bg-jobs.a1fd8d967e1bacc96f64.jpg",
     "static/media/Anthony.jpg": "/wyndus/static/media/Anthony.bf1e4d3ed9c0e7cfc92f.jpg",
     "static/media/top-flex-icon4.png": "/wyndus/static/media/top-flex-icon4.e2f5c7f394038a08837f.png",
-    "static/media/group.jpg": "/wyndus/static/media/group.24202f3813533aeb44a6.jpg",
     "static/media/Dennis.jpg": "/wyndus/static/media/Dennis.f54abc14f02a86b59d8c.jpg",
     "static/media/top-flex-icon1.png": "/wyndus/static/media/top-flex-icon1.4e0695b48ad359e17768.png",
     "static/media/mental-health-panic.png": "/wyndus/static/media/mental-health-panic.13907151be660942a522.png",
@@ -57,19 +54,21 @@
     "static/media/mental-health-bipolar.png": "/wyndus/static/media/mental-health-bipolar.1fcc765a33d05bd18370.png",
     "static/media/testimonials1.jpg": "/wyndus/static/media/testimonials1.f4eaa415c6d72cd2e8c7.jpg",
     "static/media/top-flex-icon3.png": "/wyndus/static/media/top-flex-icon3.36c30cd7bbc0373ac5be.png",
-    "static/media/DHCS-logo.png": "/wyndus/static/media/DHCS-logo.02715923c635734400e0.png",
-    "static/media/nav-logo.png": "/wyndus/static/media/nav-logo.c5c82dee8a3913dfa3d2.png",
-    "static/media/horizon.png": "/wyndus/static/media/horizon.93f9071008042e378717.png",
-    "static/media/sa-icon.png": "/wyndus/static/media/sa-icon.84941f0dd26e2480d659.png",
-    "static/media/aetna.png": "/wyndus/static/media/aetna.ba1c7baa5f90d207ae2b.png",
-    "static/media/bluecross.png": "/wyndus/static/media/bluecross.2f180be7d5ab799101c3.png",
+    "static/media/lightroom.webp": "/wyndus/static/media/lightroom.ef12d5f6c7ea6e414f09.webp",
+    "static/media/zbrush.webp": "/wyndus/static/media/zbrush.ac0f72fa81f0767e4d5c.webp",
+    "static/media/premiere.webp": "/wyndus/static/media/premiere.353d765e7fd63253e459.webp",
+    "static/media/after_effects.webp": "/wyndus/static/media/after_effects.1d20e151260083777d5b.webp",
+    "static/media/photoshop.webp": "/wyndus/static/media/photoshop.cca6fb4fce29b258406a.webp",
+    "static/media/unreal.webp": "/wyndus/static/media/unreal.ebf304787a1959b63e5a.webp",
+    "static/media/maya.webp": "/wyndus/static/media/maya.260b424a3a51c3e70aff.webp",
+    "static/media/syntheyes.webp": "/wyndus/static/media/syntheyes.676031bbf8786b0c036d.webp",
     "index.html": "/wyndus/index.html",
     "static/media/waves.svg": "/wyndus/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.0d0be7b7.css.map": "/wyndus/static/css/main.0d0be7b7.css.map",
-    "main.63c78a7a.js.map": "/wyndus/static/js/main.63c78a7a.js.map"
+    "main.5f5a4cc6.css.map": "/wyndus/static/css/main.5f5a4cc6.css.map",
+    "main.82beae9f.js.map": "/wyndus/static/js/main.82beae9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d0be7b7.css",
-    "static/js/main.63c78a7a.js"
+    "static/css/main.5f5a4cc6.css",
+    "static/js/main.82beae9f.js"
   ]
 }
